@@ -1,0 +1,121 @@
+{
+    "evaluation_config": {
+        "embedding_model": "all-MiniLM-L6-v2",
+        "top_k": 5,
+        "questions_file": "evaluation_questions.json"
+    },
+    "results": [
+        {
+            "question": "What airport serves Juruena?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Cowra Airport"
+            ],
+            "relevant_articles": [
+                "Juruena Airport"
+            ],
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+        },
+        {
+            "question": "What is the IATA code of Juruena Airport?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Batom Airport",
+                "Apolo Airport",
+                "Angoche Airport",
+                "Néma Airport"
+            ],
+            "relevant_articles": [
+                "Juruena Airport"
+            ],
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1": 0.33333333333333337
+        },
+        {
+            "question": "Does Juruena Airport have scheduled flights?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Kithira Island National Airport",
+                "Angers–Loire Airport",
+                "Wiener Neustadt East Airport",
+                "Bordj Badji Mokhtar Airport"
+            ],
+            "relevant_articles": [
+                "Juruena Airport"
+            ],
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1": 0.33333333333333337
+        },
+        {
+            "question": "What airport serves Barra do Garças?",
+            "expected_articles": [
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Cowra Airport"
+            ],
+            "relevant_articles": [
+                "Barra do Garças Airport"
+            ],
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666
+        },
+        {
+            "question": "What is the IATA code of Barra do Garças Airport?",
+            "expected_articles": [
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Grand Prairie Municipal Airport",
+                "Bordj Badji Mokhtar Airport",
+                "Apolo Airport",
+                "Angoche Airport"
+            ],
+            "relevant_articles": [
+                "Barra do Garças Airport"
+            ],
+            "precision": 0.2,
+            "recall": 1.0,
+            "f1": 0.33333333333333337
+        },
+        {
+            "question": "What airports are located in Brazil?",
+            "expected_articles": [
+                "Juruena Airport",
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Juruena Airport"
+            ],
+            "relevant_articles": [
+                "Barra do Garças Airport",
+                "Juruena Airport"
+            ],
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    ],
+    "overall_metrics": {
+        "average_precision": 0.43333333333333335,
+        "average_recall": 1.0,
+        "average_f1": 0.5555555555555556
+    }
+}

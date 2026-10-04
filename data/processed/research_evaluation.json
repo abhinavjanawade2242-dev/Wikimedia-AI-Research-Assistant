@@ -1,0 +1,126 @@
+{
+    "total_questions": 6,
+    "average_retrieval_recall": 1.0,
+    "average_verification_score": 1.0,
+    "average_overall_quality": 1.0,
+    "questions": [
+        {
+            "question": "What airport serves Juruena?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Cowra Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "Abstract Juruena Airport (IATA: JRN, ICAO: SWJU) is the airport serving Juruena, Brazil.\n\nSources Used:\n- Juruena Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nAbstract Juruena Airport (IATA: JRN, ICAO: SWJU) is the airport serving Juruena, Brazil.\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1]\n\nSupporting Articles:\nJuruena Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        },
+        {
+            "question": "What is the IATA code of Juruena Airport?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Batom Airport",
+                "Apolo Airport",
+                "Angoche Airport",
+                "Néma Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "The IATA code of Juruena Airport is JRN.\n\nSources Used:\n- Juruena Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nThe IATA code of Juruena Airport is JRN.\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1]\n\nSupporting Articles:\nJuruena Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        },
+        {
+            "question": "Does Juruena Airport have scheduled flights?",
+            "expected_articles": [
+                "Juruena Airport"
+            ],
+            "retrieved_articles": [
+                "Juruena Airport",
+                "Kithira Island National Airport",
+                "Angers–Loire Airport",
+                "Wiener Neustadt East Airport",
+                "Bordj Badji Mokhtar Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "No. No scheduled flights operate at this airport.\n\nSources Used:\n- Juruena Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nNo. No scheduled flights operate at this airport.\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1]\n\nSupporting Articles:\nJuruena Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        },
+        {
+            "question": "What airport serves Barra do Garças?",
+            "expected_articles": [
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Cowra Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "Abstract Barra do Garças Airport (IATA: BPG, ICAO: SBBW) is the airport serving Barra do Garças, Brazil.\n\nSources Used:\n- Barra do Garças Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nAbstract Barra do Garças Airport (IATA: BPG, ICAO: SBBW) is the airport serving Barra do Garças, Brazil.\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1]\n\nSupporting Articles:\nBarra do Garças Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        },
+        {
+            "question": "What is the IATA code of Barra do Garças Airport?",
+            "expected_articles": [
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Grand Prairie Municipal Airport",
+                "Bordj Badji Mokhtar Airport",
+                "Apolo Airport",
+                "Angoche Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "The IATA code of Barra do Garças Airport is BPG.\n\nSources Used:\n- Barra do Garças Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nThe IATA code of Barra do Garças Airport is BPG.\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1]\n\nSupporting Articles:\nBarra do Garças Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        },
+        {
+            "question": "What airports are located in Brazil?",
+            "expected_articles": [
+                "Juruena Airport",
+                "Barra do Garças Airport"
+            ],
+            "retrieved_articles": [
+                "Barra do Garças Airport",
+                "Juruena Airport"
+            ],
+            "retrieval_recall": 1.0,
+            "research_answer": "The retrieved Wikimedia sources identify these airports in Brazil:\n- Barra do Garças Airport\n- Juruena Airport\n\nSources Used:\n- Barra do Garças Airport\n- Juruena Airport\n",
+            "verification": "\n## Evidence Verification\n\n### Claim 1\n\nClaim:\nThe retrieved Wikimedia sources identify these airports in Brazil: Barra do Garças Airport, Juruena Airport\n\nStatus:\nSUPPORTED\n\nEvidence:\nThe research answer claim is explicitly supported by the retrieved source evidence.\n\nSources:\n[Source 1, Source 2]\n\nSupporting Articles:\nBarra do Garças Airport, Juruena Airport\n\n\n## Overall Verification\n\n- Supported claims: 1\n- Partially supported claims: 0\n- Unsupported claims: 0\n\nVerification score: 100.00%\n\nOverall assessment:\nThe verification process evaluated only the\nfactual claims actually present in the research answer.\n",
+            "supported_claims": 1,
+            "partially_supported_claims": 0,
+            "unsupported_claims": 0,
+            "verification_score": 1.0,
+            "overall_quality": 1.0
+        }
+    ]
+}

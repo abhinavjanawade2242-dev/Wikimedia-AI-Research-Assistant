@@ -1,0 +1,260 @@
+from datetime import datetime
+
+
+def generate_research_report(
+    question,
+    answer,
+    results,
+    statistics,
+    confidence,
+    comparison="",
+    verification=""
+):
+    """
+    Generate a complete research report
+    containing the research answer, source
+    information, source comparison, and
+    evidence verification.
+    """
+
+    report = []
+
+    # ========================================================
+    # TITLE
+    # ========================================================
+
+    report.append(
+        "# Wikimedia AI Research Report"
+    )
+
+    report.append("")
+
+    report.append(
+        f"**Generated:** "
+        f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    )
+
+    report.append("")
+
+    # ========================================================
+    # RESEARCH QUESTION
+    # ========================================================
+
+    report.append(
+        "## Research Question"
+    )
+
+    report.append("")
+
+    report.append(
+        question
+    )
+
+    report.append("")
+
+    # ========================================================
+    # RESEARCH ANSWER
+    # ========================================================
+
+    report.append(
+        "## Research Answer"
+    )
+
+    report.append("")
+
+    report.append(
+        answer
+    )
+
+    report.append("")
+
+    # ========================================================
+    # RESEARCH STATISTICS
+    # ========================================================
+
+    report.append(
+        "## Research Statistics"
+    )
+
+    report.append("")
+
+    report.append(
+        f"- Articles found: "
+        f"{statistics.get('articles', 0)}"
+    )
+
+    report.append(
+        f"- Best similarity: "
+        f"{statistics.get('best_match', 0):.4f}"
+    )
+
+    report.append(
+        f"- Average similarity: "
+        f"{statistics.get('average_match', 0):.4f}"
+    )
+
+    report.append(
+        f"- Confidence: "
+        f"{confidence.get('level', 'Unknown')}"
+    )
+
+    report.append("")
+
+    # ========================================================
+    # SOURCES
+    # ========================================================
+
+    report.append(
+        "## Sources"
+    )
+
+    report.append("")
+
+    for number, result in enumerate(
+        results,
+        start=1
+    ):
+
+        title = result.get(
+            "title",
+            "Unknown Article"
+        )
+
+        similarity = result.get(
+            "similarity",
+            0
+        )
+
+        research_score = result.get(
+            "research_score",
+            0
+        )
+
+        report.append(
+            f"### Source {number}: {title}"
+        )
+
+        report.append("")
+
+        report.append(
+            f"**Similarity:** "
+            f"{similarity:.4f}"
+        )
+
+        report.append("")
+
+        report.append(
+            f"**Research Score:** "
+            f"{research_score:.4f}"
+        )
+
+        report.append("")
+
+        if result.get("url"):
+
+            report.append(
+                f"**Article:** "
+                f"{result['url']}"
+            )
+
+            report.append("")
+
+        report.append(
+            "**Evidence:**"
+        )
+
+        report.append("")
+
+        report.append(
+            result.get(
+                "text",
+                ""
+            )
+        )
+
+        report.append("")
+
+    # ========================================================
+    # SOURCE COMPARISON
+    # ========================================================
+
+    report.append(
+        "## Source Comparison"
+    )
+
+    report.append("")
+
+    if comparison:
+
+        report.append(
+            comparison
+        )
+
+    else:
+
+        report.append(
+            "Source comparison was not available."
+        )
+
+    report.append("")
+
+    # ========================================================
+    # EVIDENCE VERIFICATION
+    # ========================================================
+
+    report.append(
+        "## Evidence Verification"
+    )
+
+    report.append("")
+
+    if verification:
+
+        report.append(
+            verification
+        )
+
+    else:
+
+        report.append(
+            "Evidence verification was not available."
+        )
+
+    report.append("")
+
+    # ========================================================
+    # RESEARCH LIMITATION
+    # ========================================================
+
+    report.append(
+        "## Research Limitation"
+    )
+
+    report.append("")
+
+    report.append(
+        "This report is based only on the "
+        "articles retrieved from the available "
+        "Wikimedia knowledge base. The retrieved "
+        "sources should not automatically be "
+        "considered an exhaustive representation "
+        "of all available knowledge."
+    )
+
+    report.append("")
+
+    # ========================================================
+    # FOOTER
+    # ========================================================
+
+    report.append(
+        "---"
+    )
+
+    report.append(
+        "Generated by Wikimedia AI Research Assistant"
+    )
+
+    return "\n".join(
+        report
+    )

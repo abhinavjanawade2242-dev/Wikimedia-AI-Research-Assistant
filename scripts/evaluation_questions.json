@@ -1,0 +1,39 @@
+[
+    {
+        "question": "What airport serves Juruena?",
+        "expected_articles": [
+            "Juruena Airport"
+        ]
+    },
+    {
+        "question": "What is the IATA code of Juruena Airport?",
+        "expected_articles": [
+            "Juruena Airport"
+        ]
+    },
+    {
+        "question": "Does Juruena Airport have scheduled flights?",
+        "expected_articles": [
+            "Juruena Airport"
+        ]
+    },
+    {
+        "question": "What airport serves Barra do Garças?",
+        "expected_articles": [
+            "Barra do Garças Airport"
+        ]
+    },
+    {
+        "question": "What is the IATA code of Barra do Garças Airport?",
+        "expected_articles": [
+            "Barra do Garças Airport"
+        ]
+    },
+    {
+        "question": "What airports are located in Brazil?",
+        "expected_articles": [
+            "Juruena Airport",
+            "Barra do Garças Airport"
+        ]
+    }
+]
